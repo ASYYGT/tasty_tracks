@@ -1,6 +1,27 @@
-# recipe_app
+# Recipe App
 
-A new Flutter project.
+This Flutter application is a recipe project developed using TheMealDB API. It incorporates the MVVM architecture, REST API integration, and features for writing and reading data to and from a file.
+
+## Features
+
+1. **Recipe Recommendation:**
+   - The application provides users with a randomly recommended recipe.
+
+2. **Recipe Categories:**
+   - Recipe categories are listed, and users can choose their desired category.
+
+3. **Recipe Details and Ingredients:**
+   - Recipes belonging to the selected category are listed.
+   - When a user selects a recipe, detailed instructions and ingredients are displayed.
+
+4. **Add to Favorites:**
+   - Users can add their favorite recipes to their favorites list.
+
+5. **Favorites Screen:**
+   - The recipes added to favorites are listed on a dedicated favorites screen.
+
+6. **Write and Read Data to/from File:**
+   - Favorite recipes are saved to a file, and upon launching the application, these data are read to restore the favorites.
 
 ## Getting Started
 
